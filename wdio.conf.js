@@ -53,10 +53,15 @@ export const config = {
     : [
         {
           browserName: 'chrome',
-          browserVersion: process.env.CHROME_VERSION || '145',
           acceptInsecureCerts: true,
           'goog:chromeOptions': {
-            args: ['--window-size=1280,900', '--headless=new', '--disable-gpu'],
+            args: [
+              '--window-size=1280,900',
+              '--headless=new',
+              '--disable-gpu',
+              '--no-sandbox',
+              '--disable-dev-shm-usage',
+            ],
           },
         },
       ],
