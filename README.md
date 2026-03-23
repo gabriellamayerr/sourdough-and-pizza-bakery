@@ -129,5 +129,3 @@ All automation lives under one top-level folder:
 
 - Lint: `npm run lint`
 - Production build: `npm run build`
-
-
