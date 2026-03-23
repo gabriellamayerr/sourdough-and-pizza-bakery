@@ -1,0 +1,31 @@
+exports.config = {
+  runner: 'local',
+  specs: ['./automation/e2e/specs/mobile.bakery.appium.e2e.js'],
+  maxInstances: 1,
+  hostname: '127.0.0.1',
+  port: 4723,
+  path: '/',
+  capabilities: [
+    {
+      platformName: 'Android',
+      'appium:automationName': 'UiAutomator2',
+      'appium:deviceName': 'Android Emulator',
+      'appium:platformVersion': '14',
+      'appium:browserName': 'Chrome',
+      'appium:chromedriverAutodownload': true,
+    },
+  ],
+  logLevel: 'info',
+  bail: 0,
+  baseUrl: 'http://10.0.2.2:5173',
+  waitforTimeout: 10000,
+  connectionRetryTimeout: 120000,
+  connectionRetryCount: 2,
+  framework: 'mocha',
+  reporters: ['spec'],
+  services: [],
+  mochaOpts: {
+    ui: 'bdd',
+    timeout: 90000,
+  },
+}

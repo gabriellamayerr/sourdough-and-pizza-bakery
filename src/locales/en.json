@@ -1,0 +1,212 @@
+{
+  "brand": "VATRA URBANĂ",
+  "language": {
+    "en": "EN",
+    "ro": "RO"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "shop": "Shop",
+    "premium": "Premium",
+    "contact": "Contact",
+    "calculator": "Calculator",
+    "account": "Account",
+    "login": "Login",
+    "logout": "Logout",
+    "openMenu": "Open menu"
+  },
+  "home": {
+    "hero": {
+      "title": "Perfect Your Dough Every Time",
+      "subtitle": "Build consistent sourdough and pizza formulas for your bakery while showcasing a polished QA-ready product.",
+      "tryCalculator": "Try Calculator",
+      "learnMore": "Learn More"
+    },
+    "artisan": {
+      "title": "Artisan Sourdough & Pizza Philosophy",
+      "description": "At VATRA URBANĂ we combine long fermentation, clean ingredients, and modern workflow discipline to deliver handcrafted products with consistent quality.",
+      "breadTitle": "Sourdough Bread",
+      "breadText": "Our loaves are naturally leavened, slowly proofed, and baked for deep flavor, crisp crust, and an open, tender crumb.",
+      "pizzaTitle": "Artisan Pizza",
+      "pizzaText": "Our pizza dough is matured for balance and digestibility, then baked to achieve a light interior and a refined, crispy edge."
+    },
+    "specialty": {
+      "title": "Specialty Products",
+      "counter": "{{start}}-{{end}} / {{total}}",
+      "products": [
+        {
+          "name": "Country Sourdough Loaf",
+          "description": "Long fermentation, crisp crust, and soft open crumb.",
+          "price": "€7.50",
+          "image": "/home.jpg",
+          "imagePosition": "center 35%"
+        },
+        {
+          "name": "Wood-Fired Margherita",
+          "description": "Classic tomato, mozzarella, and basil on artisan dough.",
+          "price": "€11.00",
+          "image": "/home.jpg",
+          "imagePosition": "center 55%"
+        },
+        {
+          "name": "Seeded Rye Bread",
+          "description": "Nutty flavor profile with hearty grains and seeds.",
+          "price": "€8.20",
+          "image": "/home.jpg",
+          "imagePosition": "left 45%"
+        },
+        {
+          "name": "Roman Pizza Slice",
+          "description": "Crispy base with seasonal toppings, perfect on-the-go.",
+          "price": "€4.50",
+          "image": "/home.jpg",
+          "imagePosition": "right 55%"
+        },
+        {
+          "name": "Focaccia al Rosmarino",
+          "description": "Olive oil rich, airy crumb, topped with rosemary and sea salt.",
+          "price": "€5.80",
+          "image": "/home.jpg",
+          "imagePosition": "center 30%"
+        }
+      ]
+    },
+    "preview": {
+      "title": "Calculator Preview",
+      "inputs": "Inputs",
+      "results": "Results"
+    },
+    "footerMessage": "Fresh bread, warm pizza, and a welcoming neighborhood bakery experience."
+  },
+  "about": {
+    "title": "About Us",
+    "intro": "VATRA URBANĂ is a modern urban bakery concept built around premium sourdough and pizza products, with a strong focus on consistency, hospitality, and operational clarity.",
+    "values": [
+      {
+        "title": "Artisan Craft",
+        "description": "We combine traditional sourdough fermentation with modern consistency so every loaf and pizza base feels handcrafted."
+      },
+      {
+        "title": "Local Community",
+        "description": "VATRA URBANĂ is designed as a neighborhood bakery where people gather for fresh bread, warm slices, and honest ingredients."
+      },
+      {
+        "title": "Quality First",
+        "description": "From flour selection to hydration precision, we focus on repeatable quality to support both business growth and customer trust."
+      }
+    ]
+  },
+  "shop": {
+    "title": "Shop",
+    "intro": "Explore signature bakery products curated for daily retail and catering-ready orders.",
+    "requestCatalog": "Request Full Catalog",
+    "products": [
+      { "name": "Country Sourdough Loaf", "price": "€7.50", "tag": "Best Seller" },
+      { "name": "Wood-Fired Margherita", "price": "€11.00", "tag": "Classic" },
+      { "name": "Seeded Rye Sourdough", "price": "€8.20", "tag": "Daily Fresh" },
+      { "name": "Roman-Style Pizza Slice", "price": "€4.50", "tag": "Quick Lunch" }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Get in touch for wholesale, collaborations, catering, or interview-demo feedback.",
+    "fields": {
+      "name": "Full name",
+      "email": "Email address",
+      "subject": "Subject",
+      "message": "Your message"
+    },
+    "send": "Send Message"
+  },
+  "calculator": {
+    "title": "VATRA URBANĂ",
+    "subtitle": "Dedicated dough planning tool for your bakery operations and QA showcase.",
+    "fields": {
+      "flour": "Flour (g)",
+      "hydration": "Hydration (%)",
+      "starter": "Starter (%)",
+      "salt": "Salt (%)"
+    },
+    "validate": "Validate with API",
+    "errors": {
+      "invalid": "Use valid values before validating with API.",
+      "failed": "Calculation failed. Please check the input values."
+    },
+    "stats": {
+      "water": "Water (g)",
+      "total": "Total Dough (g)"
+    },
+    "apiTotal": "API total dough: {{value}} g"
+  },
+  "login": {
+    "title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "emailPlaceholder": "you@bakery.com",
+    "passwordPlaceholder": "••••••••",
+    "login": "Login",
+    "create": "Create account",
+    "backHome": "Back to Home",
+    "errors": {
+      "invalidEmail": "Please enter a valid email address.",
+      "shortPassword": "Password must contain at least 6 characters.",
+      "required": "Email and password are required."
+    },
+    "createInfo": "Create account flow can be added as the next interview enhancement."
+  },
+  "account": {
+    "title": "Account",
+    "pleaseLogin": "Please log in to view your bakery account dashboard.",
+    "goToLogin": "Go to Login",
+    "name": "Name:",
+    "email": "Email:",
+    "savedTitle": "Saved calculations",
+    "savedEmpty": "No saved formulas yet. Add persistence as a next step.",
+    "recentTitle": "Recent activity",
+    "lastLogin": "Last login: {{value}}"
+  },
+  "premium": {
+    "title": "Premium Content & Exclusive Products",
+    "subtitle": "Access professional bakery courses and exclusive operational kits. Complete checkout with a Romanian mock payment provider for end-to-end QA automation.",
+    "provider": "Checkout provider",
+    "loading": "Loading premium catalog...",
+    "coursesTitle": "Courses",
+    "productsTitle": "Exclusive Products",
+    "addToCart": "Add to cart",
+    "labels": {
+      "course": "Course",
+      "exclusiveProduct": "Exclusive"
+    },
+    "errors": {
+      "catalogLoad": "Could not load premium catalog.",
+      "customerRequired": "Customer name and email are required.",
+      "cartEmpty": "Select at least one premium item before checkout.",
+      "checkoutFailed": "Checkout failed. Please try again.",
+      "paymentFailed": "Mock payment failed. Please retry."
+    },
+    "loginRequired": {
+      "title": "Premium section is protected",
+      "description": "Login first to access paid courses, exclusive products and checkout.",
+      "cta": "Login to continue"
+    },
+    "checkout": {
+      "title": "Checkout",
+      "customerName": "Customer name",
+      "customerEmail": "Customer email",
+      "customerPhone": "Customer phone",
+      "cartTitle": "Cart items",
+      "emptyCart": "Your cart is empty.",
+      "total": "Total",
+      "submit": "Create order",
+      "orderCreated": "Order {{orderId}} created successfully.",
+      "orderStatus": "Order status",
+      "confirmMockPayment": "Confirm mock NETOPIA payment",
+      "paymentSuccess": "Payment approved. Transaction: {{transactionId}}"
+    }
+  },
+  "footer": {
+    "calculator": "Calculator",
+    "account": "Account"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "brand": "VATRA URBANĂ",
+  "language": {
+    "en": "EN",
+    "ro": "RO"
+  },
+  "nav": {
+    "home": "Acasă",
+    "about": "Despre Noi",
+    "shop": "Magazin",
+    "premium": "Premium",
+    "contact": "Contact",
+    "calculator": "Calculator",
+    "account": "Cont",
+    "login": "Autentificare",
+    "logout": "Deconectare",
+    "openMenu": "Deschide meniul"
+  },
+  "home": {
+    "hero": {
+      "title": "Perfecționează Aluatul De Fiecare Dată",
+      "subtitle": "Construiește formule constante de sourdough și pizza pentru brutăria ta, prezentate într-un produs QA profesionist.",
+      "tryCalculator": "Încearcă Calculatorul",
+      "learnMore": "Află Mai Mult"
+    },
+    "artisan": {
+      "title": "Filosofia Noastră Artizanală Pentru Sourdough & Pizza",
+      "description": "La VATRA URBANĂ combinăm fermentația lentă, ingrediente curate și disciplină operațională modernă pentru produse artizanale cu o calitate constantă.",
+      "breadTitle": "Pâine Sourdough",
+      "breadText": "Pâinile noastre sunt dospite natural, fermentate lent și coapte pentru aromă profundă, coajă crocantă și miez aerat.",
+      "pizzaTitle": "Pizza Artizanală",
+      "pizzaText": "Aluatul nostru pentru pizza este maturat pentru echilibru și digestibilitate, apoi copt pentru interior ușor și margine crocantă, elegantă."
+    },
+    "specialty": {
+      "title": "Produse Speciale",
+      "counter": "{{start}}-{{end}} / {{total}}",
+      "products": [
+        {
+          "name": "Pâine Sourdough Țărănească",
+          "description": "Fermentație lungă, coajă crocantă și miez aerat.",
+          "price": "€7.50",
+          "image": "/home.jpg",
+          "imagePosition": "center 35%"
+        },
+        {
+          "name": "Margherita La Cuptor Cu Lemne",
+          "description": "Roșii clasice, mozzarella și busuioc pe aluat artizanal.",
+          "price": "€11.00",
+          "image": "/home.jpg",
+          "imagePosition": "center 55%"
+        },
+        {
+          "name": "Pâine De Secară Cu Semințe",
+          "description": "Profil bogat, cu cereale și semințe hrănitoare.",
+          "price": "€8.20",
+          "image": "/home.jpg",
+          "imagePosition": "left 45%"
+        },
+        {
+          "name": "Felie Pizza În Stil Roman",
+          "description": "Bază crocantă cu toppinguri sezoniere, perfectă pentru drum.",
+          "price": "€4.50",
+          "image": "/home.jpg",
+          "imagePosition": "right 55%"
+        },
+        {
+          "name": "Focaccia Cu Rozmarin",
+          "description": "Miez aerat, bogată în ulei de măsline, cu rozmarin și sare de mare.",
+          "price": "€5.80",
+          "image": "/home.jpg",
+          "imagePosition": "center 30%"
+        }
+      ]
+    },
+    "preview": {
+      "title": "Previzualizare Calculator",
+      "inputs": "Intrări",
+      "results": "Rezultate"
+    },
+    "footerMessage": "Pâine proaspătă, pizza caldă și o experiență de brutărie primitoare în cartier."
+  },
+  "about": {
+    "title": "Despre Noi",
+    "intro": "VATRA URBANĂ este un concept modern de brutărie urbană construit în jurul produselor premium de sourdough și pizza, cu accent pe consistență, ospitalitate și claritate operațională.",
+    "values": [
+      {
+        "title": "Meșteșug Artizanal",
+        "description": "Combinăm fermentația tradițională cu procese moderne pentru ca fiecare pâine și bază de pizza să fie artizanală."
+      },
+      {
+        "title": "Comunitate Locală",
+        "description": "VATRA URBANĂ este gândită ca o brutărie de cartier unde oamenii se întâlnesc pentru pâine proaspătă, felii calde și ingrediente curate."
+      },
+      {
+        "title": "Calitate În Prim Plan",
+        "description": "De la selecția făinii la precizia hidratării, urmărim calitate repetabilă pentru creștere sustenabilă și încrederea clienților."
+      }
+    ]
+  },
+  "shop": {
+    "title": "Magazin",
+    "intro": "Descoperă produsele noastre signature, pregătite pentru vânzare zilnică și comenzi de catering.",
+    "requestCatalog": "Solicită Catalogul Complet",
+    "products": [
+      { "name": "Pâine Sourdough Țărănească", "price": "€7.50", "tag": "Bestseller" },
+      { "name": "Margherita La Cuptor Cu Lemne", "price": "€11.00", "tag": "Clasic" },
+      { "name": "Sourdough Cu Secară Și Semințe", "price": "€8.20", "tag": "Proaspăt Zilnic" },
+      { "name": "Felie Pizza Stil Roman", "price": "€4.50", "tag": "Prânz Rapid" }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Contactează-ne pentru colaborări, comenzi en-gros, catering sau feedback pentru demo-ul de interviu.",
+    "fields": {
+      "name": "Nume complet",
+      "email": "Adresă de email",
+      "subject": "Subiect",
+      "message": "Mesajul tău"
+    },
+    "send": "Trimite Mesajul"
+  },
+  "calculator": {
+    "title": "VATRA URBANĂ",
+    "subtitle": "Instrument dedicat pentru planificarea aluatului în operațiunile brutăriei și prezentarea QA.",
+    "fields": {
+      "flour": "Făină (g)",
+      "hydration": "Hidratare (%)",
+      "starter": "Maia (%)",
+      "salt": "Sare (%)"
+    },
+    "validate": "Validează cu API",
+    "errors": {
+      "invalid": "Folosește valori valide înainte de validarea prin API.",
+      "failed": "Calculul a eșuat. Verifică valorile introduse."
+    },
+    "stats": {
+      "water": "Apă (g)",
+      "total": "Aluat Total (g)"
+    },
+    "apiTotal": "Total aluat API: {{value}} g"
+  },
+  "login": {
+    "title": "Autentificare",
+    "email": "Email",
+    "password": "Parolă",
+    "emailPlaceholder": "tu@brutarie.com",
+    "passwordPlaceholder": "••••••••",
+    "login": "Autentificare",
+    "create": "Creează cont",
+    "backHome": "Înapoi la Acasă",
+    "errors": {
+      "invalidEmail": "Te rugăm să introduci o adresă de email validă.",
+      "shortPassword": "Parola trebuie să conțină cel puțin 6 caractere.",
+      "required": "Emailul și parola sunt obligatorii."
+    },
+    "createInfo": "Fluxul de creare cont poate fi adăugat ca următoarea îmbunătățire pentru interviu."
+  },
+  "account": {
+    "title": "Cont",
+    "pleaseLogin": "Te rugăm să te autentifici pentru a vedea dashboard-ul contului tău de brutărie.",
+    "goToLogin": "Mergi la Autentificare",
+    "name": "Nume:",
+    "email": "Email:",
+    "savedTitle": "Calcule Salvate",
+    "savedEmpty": "Nu există formule salvate încă. Adaugă persistență ca pas următor.",
+    "recentTitle": "Activitate Recentă",
+    "lastLogin": "Ultima autentificare: {{value}}"
+  },
+  "premium": {
+    "title": "Conținut Premium & Produse Exclusive",
+    "subtitle": "Accesează cursuri profesionale de brutărie și kituri exclusive operaționale. Finalizează comanda cu un provider românesc de plată mock pentru automatizare QA end-to-end.",
+    "provider": "Provider checkout",
+    "loading": "Se încarcă catalogul premium...",
+    "coursesTitle": "Cursuri",
+    "productsTitle": "Produse Exclusive",
+    "addToCart": "Adaugă în coș",
+    "labels": {
+      "course": "Curs",
+      "exclusiveProduct": "Exclusiv"
+    },
+    "errors": {
+      "catalogLoad": "Catalogul premium nu a putut fi încărcat.",
+      "customerRequired": "Numele și emailul clientului sunt obligatorii.",
+      "cartEmpty": "Selectează cel puțin un produs premium înainte de checkout.",
+      "checkoutFailed": "Checkout-ul a eșuat. Te rugăm să încerci din nou.",
+      "paymentFailed": "Plata mock a eșuat. Reîncearcă."
+    },
+    "loginRequired": {
+      "title": "Secțiunea premium este protejată",
+      "description": "Autentifică-te pentru a accesa cursurile plătite, produsele exclusive și checkout-ul.",
+      "cta": "Autentifică-te pentru continuare"
+    },
+    "checkout": {
+      "title": "Checkout",
+      "customerName": "Nume client",
+      "customerEmail": "Email client",
+      "customerPhone": "Telefon client",
+      "cartTitle": "Produse în coș",
+      "emptyCart": "Coșul tău este gol.",
+      "total": "Total",
+      "submit": "Creează comandă",
+      "orderCreated": "Comanda {{orderId}} a fost creată cu succes.",
+      "orderStatus": "Status comandă",
+      "confirmMockPayment": "Confirmă plata mock NETOPIA",
+      "paymentSuccess": "Plată aprobată. Tranzacție: {{transactionId}}"
+    }
+  },
+  "footer": {
+    "calculator": "Calculator",
+    "account": "Cont"
+  }
+}
