@@ -167,12 +167,7 @@ jobs:
         run: npm ci
 
       - name: Ensure Appium Android driver is present
-        run: |
-          if npx appium driver list --installed | grep -q uiautomator2; then
-            npx appium driver update uiautomator2
-          else
-            npx appium driver install uiautomator2
-          fi
+        run: npx appium driver update uiautomator2 || npx appium driver install uiautomator2
 
       - name: Start backend and frontend
         run: |
