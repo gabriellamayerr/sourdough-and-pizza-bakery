@@ -5,10 +5,15 @@ exports.config = {
   capabilities: [
     {
       browserName: 'chrome',
-      browserVersion: '145',
       acceptInsecureCerts: true,
       'goog:chromeOptions': {
-        args: ['--window-size=1280,900'],
+        args: [
+          '--headless=new',
+          '--disable-gpu',
+          '--no-sandbox',
+          '--disable-dev-shm-usage',
+          '--window-size=1280,900',
+        ],
       },
     },
   ],
