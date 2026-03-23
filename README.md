@@ -121,9 +121,12 @@ All automation lives under one top-level folder:
 
 1. Install Android Studio + SDK Platform-Tools.
 2. Ensure an emulator is available/running (for example Android 14).
-3. Install Appium Android driver once:
+3. Ensure Appium Android driver is installed:
 
+	npx appium driver list --installed
 	npx appium driver install uiautomator2
+	# if already installed
+	npx appium driver update uiautomator2
 
 ## Build & Lint
 
