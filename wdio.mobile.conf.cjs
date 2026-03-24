@@ -10,7 +10,7 @@ exports.config = {
       platformName: 'Android',
       'appium:automationName': 'UiAutomator2',
       'appium:deviceName': 'Android Emulator',
-      'appium:platformVersion': '14',
+      'appium:platformVersion': '13',
       'appium:browserName': 'Chrome',
       'appium:chromedriverAutodownload': true,
       'appium:noReset': true,
