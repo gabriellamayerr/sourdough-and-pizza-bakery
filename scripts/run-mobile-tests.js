@@ -74,11 +74,25 @@ async function waitForAppiumStatus(timeoutMs = 30000) {
   return false
 }
 
-const appiumProcess = spawn(npxCommand, ['appium', '--base-path', '/', '--port', '4723'], {
+const appiumProcess = spawn(
+  npxCommand,
+  [
+    'appium',
+    '--base-path',
+    '/',
+    '--port',
+    '4723',
+    '--allow-insecure',
+    'chromedriver_autodownload',
+    '--log',
+    'appium.log',
+  ],
+  {
   stdio: 'pipe',
   shell: npxShell,
   env,
-})
+  },
+)
 
 appiumProcess.stdout.on('data', (chunk) => {
   process.stdout.write(chunk)

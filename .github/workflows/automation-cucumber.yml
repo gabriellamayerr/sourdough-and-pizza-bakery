@@ -200,4 +200,5 @@ jobs:
           path: |
             backend.log
             frontend.log
+            appium.log
           if-no-files-found: warn
