@@ -83,7 +83,7 @@ const appiumProcess = spawn(
     '--port',
     '4723',
     '--allow-insecure',
-    'chromedriver_autodownload',
+    'uiautomator2:chromedriver_autodownload',
     '--log',
     'appium.log',
   ],
