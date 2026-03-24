@@ -47,6 +47,7 @@ const env = {
 console.log(`Using Android SDK: ${sdkRoot}`)
 
 const npxCommand = process.platform === 'win32' ? 'npx.cmd' : 'npx'
+const npxShell = process.platform === 'win32'
 
 function delay(milliseconds) {
   return new Promise((resolve) => {
@@ -75,7 +76,7 @@ async function waitForAppiumStatus(timeoutMs = 30000) {
 
 const appiumProcess = spawn(npxCommand, ['appium', '--base-path', '/', '--port', '4723'], {
   stdio: 'pipe',
-  shell: false,
+  shell: npxShell,
   env,
 })
 
@@ -120,7 +121,7 @@ if (!appiumReady) {
 
 const wdioProcess = spawn(npxCommand, ['wdio', 'run', './wdio.mobile.conf.cjs'], {
   stdio: 'inherit',
-  shell: false,
+  shell: npxShell,
   env,
 })
 
