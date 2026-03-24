@@ -14,6 +14,7 @@ exports.config = {
       'appium:browserName': 'Chrome',
       'appium:chromedriverAutodownload': true,
       'appium:noReset': true,
+      'appium:ignoreHiddenApiPolicyError': true,
       'appium:adbExecTimeout': 300000,
       'appium:uiautomator2ServerInstallTimeout': 300000,
       'appium:uiautomator2ServerLaunchTimeout': 300000,

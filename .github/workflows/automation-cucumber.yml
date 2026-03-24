@@ -187,7 +187,18 @@ jobs:
           emulator-boot-timeout: 1200
           disable-animations: true
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
-          script: npm run test:mobile
+          script: |
+            adb wait-for-device
+            for i in $(seq 1 30); do
+              BOOT_DONE=$(adb shell getprop sys.boot_completed 2>/dev/null | tr -d '\r')
+              if [ "$BOOT_DONE" = "1" ] && adb shell service list 2>/dev/null | grep -q settings; then
+                echo "Android boot and settings service are ready"
+                break
+              fi
+              echo "Waiting for full Android service readiness... ($i/30)"
+              sleep 5
+            done
+            npm run test:mobile
 
       - name: Upload mobile service logs
         if: always()
