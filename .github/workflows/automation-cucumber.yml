@@ -180,13 +180,13 @@ jobs:
       - name: Run Android emulator and mobile tests
         uses: reactivecircus/android-emulator-runner@v2
         with:
-          api-level: 34
+          api-level: 33
           arch: x86_64
           target: google_apis
-          profile: pixel_7
+          profile: pixel_6
           emulator-boot-timeout: 1200
           disable-animations: true
-          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
+          emulator-options: -no-window -no-audio -no-boot-anim -gpu swiftshader_indirect
           script: |
             adb kill-server
             adb start-server
