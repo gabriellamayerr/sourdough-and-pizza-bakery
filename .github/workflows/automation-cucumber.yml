@@ -189,7 +189,7 @@ jobs:
           profile: pixel_6
           emulator-boot-timeout: 1200
           disable-animations: true
-          emulator-options: -no-window -no-audio -no-boot-anim -gpu swiftshader_indirect
+          emulator-options: -no-window -no-audio -no-boot-anim -gpu swiftshader_indirect -no-snapshot -no-snapshot-save -wipe-data
           script: |
             adb kill-server
             adb start-server
