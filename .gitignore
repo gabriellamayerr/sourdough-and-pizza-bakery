@@ -24,3 +24,8 @@ allure-report
 *.njsproj
 *.sln
 *.sw?
+
+# Keep only workflow files in .github
+.github/*
+!.github/workflows/
+!.github/workflows/**

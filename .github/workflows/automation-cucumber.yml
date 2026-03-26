@@ -194,6 +194,10 @@ jobs:
             bash -lc 'for i in $(seq 1 30); do BOOT_DONE=$(adb shell getprop sys.boot_completed 2>/dev/null | tr -d "\r"); if [ "$BOOT_DONE" = "1" ] && adb shell service list 2>/dev/null | grep -q settings; then echo "Android boot and settings service are ready"; exit 0; fi; echo "Waiting for full Android service readiness... ($i/30)"; sleep 5; done; echo "Timed out waiting for Android settings service"; exit 1'
             adb devices
             adb shell input keyevent 82 || true
+            adb shell wm dismiss-keyguard || true
+            adb shell am start -n com.android.chrome/com.google.android.apps.chrome.Main || true
+            sleep 8
+            adb shell input keyevent 4 || true
             npm run test:mobile
 
       - name: Upload mobile service logs
